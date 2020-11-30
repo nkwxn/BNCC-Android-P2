@@ -53,6 +53,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                 ft.commit();
                 break;
             case R.id.btnFrag2:
+                // Untuk menambahkan fragment
                 fm = getSupportFragmentManager();
                 ft = fm.beginTransaction();
                 ft.replace(R.id.fragment1, new Fragment2());
